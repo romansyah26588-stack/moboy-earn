@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { db } from '@/lib/db'
-import ZAI from 'z-ai-web-dev-sdk'
 
 // Social media URL validation patterns
 const SOCIAL_MEDIA_PATTERNS = {
