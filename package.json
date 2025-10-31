@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' next build",
     "build:cloudflare": "npm run build && npx @cloudflare/next-on-pages",
     "start": "next start",
     "lint": "next lint",
