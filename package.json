@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "NODE_OPTIONS='--max-old-space-size=4096' next build",
-    "build:cloudflare": "npm run build && npx @cloudflare/next-on-pages",
+    "build:cloudflare": "npm run build && npx @opennext/cloudflare-pages",
     "start": "next start",
     "lint": "next lint",
     "db:push": "prisma db push",
@@ -36,7 +36,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.5",
     "@types/node": "^20.17.6",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
