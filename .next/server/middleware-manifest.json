@@ -1,0 +1,223 @@
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {
+    "/api/auth/wallet/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/auth/wallet/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/861.js",
+        "server/edge-chunks/174.js",
+        "server/app/api/auth/wallet/route.js"
+      ],
+      "name": "app/api/auth/wallet/route",
+      "page": "/api/auth/wallet/route",
+      "matchers": [
+        {
+          "regexp": "^/api/auth/wallet$",
+          "originalSource": "/api/auth/wallet"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "i7EOFkmwsb-DI-F1m-CqJ",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "E24efPsCnfax/1wWr6avGExarq/jrrcb0PNtHPKgQ04=",
+        "__NEXT_PREVIEW_MODE_ID": "0f128c321b2b3c80a9ea753ab33a5ce0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "38b5810a21879106e34b1f55414881b59ad3704a5907644cab9ede8d1e9a3812",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0981df4081b2b9887ef34c1d6f863776ea4ee9c1c9682ec4ebd01e45dba12088"
+      }
+    },
+    "/api/content/all/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/content/all/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/861.js",
+        "server/edge-chunks/174.js",
+        "server/app/api/content/all/route.js"
+      ],
+      "name": "app/api/content/all/route",
+      "page": "/api/content/all/route",
+      "matchers": [
+        {
+          "regexp": "^/api/content/all$",
+          "originalSource": "/api/content/all"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "i7EOFkmwsb-DI-F1m-CqJ",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "E24efPsCnfax/1wWr6avGExarq/jrrcb0PNtHPKgQ04=",
+        "__NEXT_PREVIEW_MODE_ID": "0f128c321b2b3c80a9ea753ab33a5ce0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "38b5810a21879106e34b1f55414881b59ad3704a5907644cab9ede8d1e9a3812",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0981df4081b2b9887ef34c1d6f863776ea4ee9c1c9682ec4ebd01e45dba12088"
+      }
+    },
+    "/api/content/list/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/content/list/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/861.js",
+        "server/edge-chunks/174.js",
+        "server/app/api/content/list/route.js"
+      ],
+      "name": "app/api/content/list/route",
+      "page": "/api/content/list/route",
+      "matchers": [
+        {
+          "regexp": "^/api/content/list$",
+          "originalSource": "/api/content/list"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "i7EOFkmwsb-DI-F1m-CqJ",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "E24efPsCnfax/1wWr6avGExarq/jrrcb0PNtHPKgQ04=",
+        "__NEXT_PREVIEW_MODE_ID": "0f128c321b2b3c80a9ea753ab33a5ce0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "38b5810a21879106e34b1f55414881b59ad3704a5907644cab9ede8d1e9a3812",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0981df4081b2b9887ef34c1d6f863776ea4ee9c1c9682ec4ebd01e45dba12088"
+      }
+    },
+    "/api/content/submit/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/content/submit/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/861.js",
+        "server/edge-chunks/174.js",
+        "server/app/api/content/submit/route.js"
+      ],
+      "name": "app/api/content/submit/route",
+      "page": "/api/content/submit/route",
+      "matchers": [
+        {
+          "regexp": "^/api/content/submit$",
+          "originalSource": "/api/content/submit"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "i7EOFkmwsb-DI-F1m-CqJ",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "E24efPsCnfax/1wWr6avGExarq/jrrcb0PNtHPKgQ04=",
+        "__NEXT_PREVIEW_MODE_ID": "0f128c321b2b3c80a9ea753ab33a5ce0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "38b5810a21879106e34b1f55414881b59ad3704a5907644cab9ede8d1e9a3812",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0981df4081b2b9887ef34c1d6f863776ea4ee9c1c9682ec4ebd01e45dba12088"
+      }
+    },
+    "/api/health/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/health/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/861.js",
+        "server/app/api/health/route.js"
+      ],
+      "name": "app/api/health/route",
+      "page": "/api/health/route",
+      "matchers": [
+        {
+          "regexp": "^/api/health$",
+          "originalSource": "/api/health"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "i7EOFkmwsb-DI-F1m-CqJ",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "E24efPsCnfax/1wWr6avGExarq/jrrcb0PNtHPKgQ04=",
+        "__NEXT_PREVIEW_MODE_ID": "0f128c321b2b3c80a9ea753ab33a5ce0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "38b5810a21879106e34b1f55414881b59ad3704a5907644cab9ede8d1e9a3812",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0981df4081b2b9887ef34c1d6f863776ea4ee9c1c9682ec4ebd01e45dba12088"
+      }
+    },
+    "/api/rewards/claim/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/rewards/claim/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/861.js",
+        "server/edge-chunks/174.js",
+        "server/app/api/rewards/claim/route.js"
+      ],
+      "name": "app/api/rewards/claim/route",
+      "page": "/api/rewards/claim/route",
+      "matchers": [
+        {
+          "regexp": "^/api/rewards/claim$",
+          "originalSource": "/api/rewards/claim"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "i7EOFkmwsb-DI-F1m-CqJ",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "E24efPsCnfax/1wWr6avGExarq/jrrcb0PNtHPKgQ04=",
+        "__NEXT_PREVIEW_MODE_ID": "0f128c321b2b3c80a9ea753ab33a5ce0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "38b5810a21879106e34b1f55414881b59ad3704a5907644cab9ede8d1e9a3812",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0981df4081b2b9887ef34c1d6f863776ea4ee9c1c9682ec4ebd01e45dba12088"
+      }
+    },
+    "/api/user/profile/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/user/profile/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/861.js",
+        "server/edge-chunks/174.js",
+        "server/app/api/user/profile/route.js"
+      ],
+      "name": "app/api/user/profile/route",
+      "page": "/api/user/profile/route",
+      "matchers": [
+        {
+          "regexp": "^/api/user/profile$",
+          "originalSource": "/api/user/profile"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "i7EOFkmwsb-DI-F1m-CqJ",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "E24efPsCnfax/1wWr6avGExarq/jrrcb0PNtHPKgQ04=",
+        "__NEXT_PREVIEW_MODE_ID": "0f128c321b2b3c80a9ea753ab33a5ce0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "38b5810a21879106e34b1f55414881b59ad3704a5907644cab9ede8d1e9a3812",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "0981df4081b2b9887ef34c1d6f863776ea4ee9c1c9682ec4ebd01e45dba12088"
+      }
+    }
+  },
+  "sortedMiddleware": []
+}
