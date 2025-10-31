@@ -1,0 +1,63 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                String   @id @default(cuid())
+  walletAddress     String   @unique
+  totalPosts        Int      @default(0)
+  totalViews        Int      @default(0)
+  totalRewards      Float    @default(0)
+  claimableRewards  Float    @default(0)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  
+  submissions       ContentSubmission[]
+  rewardClaims      RewardClaim[]
+}
+
+model ContentSubmission {
+  id          String   @id @default(cuid())
+  url         String   @unique
+  platform    String
+  views       Int      @default(0)
+  reward      Float    @default(0)
+  status      String   @default("pending") // pending, approved, rejected
+  submittedAt DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  viewMetrics ViewMetric[]
+}
+
+model ViewMetric {
+  id        String   @id @default(cuid())
+  views     Int      @default(0)
+  date      DateTime @default(now())
+  
+  contentId String
+  content   ContentSubmission @relation(fields: [contentId], references: [id], onDelete: Cascade)
+}
+
+model RewardClaim {
+  id          String   @id @default(cuid())
+  amount      Float
+  claimedAt   DateTime @default(now())
+  txHash      String?  // Solana transaction hash
+  
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
