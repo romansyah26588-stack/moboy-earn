@@ -1,0 +1,97 @@
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): server.ts src/**/*[39m
+[33m[nodemon] watching extensions: ts,tsx,js,jsx[39m
+[32m[nodemon] starting `npx tsx server.ts`[39m
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+> Ready on http://0.0.0.0:3000
+> Socket.IO server running at ws://0.0.0.0:3000/api/socketio
+ ○ Compiling / ...
+ ✓ Compiled / in 5.8s (828 modules)
+ GET / 200 in 3164ms
+ ○ Compiling /api/posts ...
+ ✓ Compiled /api/posts in 597ms (817 modules)
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 777ms
+ ✓ Compiled in 372ms (379 modules)
+ ✓ Compiled / in 307ms (432 modules)
+ GET / 200 in 607ms
+ ✓ Compiled /api/posts in 111ms (452 modules)
+ ✓ Compiled /api/user/profile in 311ms (819 modules)
+prisma:query SELECT 1
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 536ms
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress`, `main`.`User`.`postCount`, `main`.`User`.`rewardsClaimed`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE `main`.`Post`.`walletAddress` IN (?) ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+ GET /api/user/profile?walletAddress=AXt3aHNB9uKLYfUxc2zmyvEdU2kbpixp9kc88Dxuo2cW 200 in 445ms
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 9ms
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress`, `main`.`User`.`postCount`, `main`.`User`.`rewardsClaimed`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE `main`.`Post`.`walletAddress` IN (?) ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+ GET /api/user/profile?walletAddress=AXt3aHNB9uKLYfUxc2zmyvEdU2kbpixp9kc88Dxuo2cW 200 in 7ms
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 9ms
+ GET / 200 in 180ms
+prisma:query SELECT 1
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 8ms
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress`, `main`.`User`.`postCount`, `main`.`User`.`rewardsClaimed`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE `main`.`Post`.`walletAddress` IN (?) ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+ GET /api/user/profile?walletAddress=AXt3aHNB9uKLYfUxc2zmyvEdU2kbpixp9kc88Dxuo2cW 200 in 10ms
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 12ms
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress`, `main`.`User`.`postCount`, `main`.`User`.`rewardsClaimed`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE `main`.`Post`.`walletAddress` IN (?) ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+ GET /api/user/profile?walletAddress=AXt3aHNB9uKLYfUxc2zmyvEdU2kbpixp9kc88Dxuo2cW 200 in 10ms
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 13ms
+ GET / 200 in 83ms
+prisma:query SELECT 1
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 10ms
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress`, `main`.`User`.`postCount`, `main`.`User`.`rewardsClaimed`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE `main`.`Post`.`walletAddress` IN (?) ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+ GET /api/user/profile?walletAddress=AXt3aHNB9uKLYfUxc2zmyvEdU2kbpixp9kc88Dxuo2cW 200 in 10ms
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 7ms
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress`, `main`.`User`.`postCount`, `main`.`User`.`rewardsClaimed`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE `main`.`Post`.`walletAddress` IN (?) ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+ GET /api/user/profile?walletAddress=AXt3aHNB9uKLYfUxc2zmyvEdU2kbpixp9kc88Dxuo2cW 200 in 8ms
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 8ms
+prisma:query SELECT 1
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE (`main`.`Post`.`linkUrl` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query INSERT INTO `main`.`User` (`id`, `walletAddress`, `postCount`, `rewardsClaimed`, `createdAt`, `updatedAt`) VALUES (?,?,?,?,?,?) ON CONFLICT  (`walletAddress`) DO UPDATE SET `postCount` = (`main`.`User`.`postCount` + ?), `updatedAt` = ? WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) RETURNING `id` AS `id`, `walletAddress` AS `walletAddress`, `postCount` AS `postCount`, `rewardsClaimed` AS `rewardsClaimed`, `createdAt` AS `createdAt`, `updatedAt` AS `updatedAt`
+prisma:query INSERT INTO `main`.`Post` (`id`, `linkUrl`, `walletAddress`, `createdAt`, `updatedAt`) VALUES (?,?,?,?,?) RETURNING `id` AS `id`, `linkUrl` AS `linkUrl`, `walletAddress` AS `walletAddress`, `createdAt` AS `createdAt`, `updatedAt` AS `updatedAt`
+ POST /api/posts 200 in 18ms
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 10ms
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress`, `main`.`User`.`postCount`, `main`.`User`.`rewardsClaimed`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE `main`.`Post`.`walletAddress` IN (?) ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+ GET /api/user/profile?walletAddress=AXt3aHNB9uKLYfUxc2zmyvEdU2kbpixp9kc88Dxuo2cW 200 in 10ms
+prisma:query SELECT 1
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE (`main`.`Post`.`linkUrl` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query INSERT INTO `main`.`User` (`id`, `walletAddress`, `postCount`, `rewardsClaimed`, `createdAt`, `updatedAt`) VALUES (?,?,?,?,?,?) ON CONFLICT  (`walletAddress`) DO UPDATE SET `postCount` = (`main`.`User`.`postCount` + ?), `updatedAt` = ? WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) RETURNING `id` AS `id`, `walletAddress` AS `walletAddress`, `postCount` AS `postCount`, `rewardsClaimed` AS `rewardsClaimed`, `createdAt` AS `createdAt`, `updatedAt` AS `updatedAt`
+prisma:query INSERT INTO `main`.`Post` (`id`, `linkUrl`, `walletAddress`, `createdAt`, `updatedAt`) VALUES (?,?,?,?,?) RETURNING `id` AS `id`, `linkUrl` AS `linkUrl`, `walletAddress` AS `walletAddress`, `createdAt` AS `createdAt`, `updatedAt` AS `updatedAt`
+ POST /api/posts 200 in 11ms
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE 1=1 ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress` FROM `main`.`User` WHERE `main`.`User`.`walletAddress` IN (?) LIMIT ? OFFSET ?
+ GET /api/posts 200 in 8ms
+prisma:query SELECT `main`.`User`.`id`, `main`.`User`.`walletAddress`, `main`.`User`.`postCount`, `main`.`User`.`rewardsClaimed`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE (`main`.`User`.`walletAddress` = ? AND 1=1) LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Post`.`id`, `main`.`Post`.`linkUrl`, `main`.`Post`.`walletAddress`, `main`.`Post`.`createdAt`, `main`.`Post`.`updatedAt` FROM `main`.`Post` WHERE `main`.`Post`.`walletAddress` IN (?) ORDER BY `main`.`Post`.`createdAt` DESC LIMIT ? OFFSET ?
+ GET /api/user/profile?walletAddress=AXt3aHNB9uKLYfUxc2zmyvEdU2kbpixp9kc88Dxuo2cW 200 in 12ms
