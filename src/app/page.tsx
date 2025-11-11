@@ -228,7 +228,7 @@ export default function MoBoyApp() {
               {/* MoBoy Character */}
               <div className="relative">
                 <img
-                  src="https://z-cdn-media.chatglm.cn/files/aff6c9b7-367e-4fb3-9f0e-a774972a1959_Moboy.png?auth_key=1762145266-55e52daac02d4fb5a64b008767ff9be6-0-4036d96b6c6c1cbefd88b1ecc8f8c2f7"
+                  src="https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/refs/heads/main/public/Moboy.png"
                   alt="MoBoy"
                   className="w-16 h-16"
                 />
