@@ -104,6 +104,7 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
 
 const ChartTooltip = RechartsPrimitive.Tooltip
 
+// --- PERUBAHAN UTAMA DIMULAI DI SINI ---
 function ChartTooltipContent({
   active,
   payload,
@@ -118,14 +119,21 @@ function ChartTooltipContent({
   color,
   nameKey,
   labelKey,
-}: React.ComponentProps<typeof RechartsPrimitive.Tooltip> &
-  React.ComponentProps<"div"> & {
-    hideLabel?: boolean
-    hideIndicator?: boolean
-    indicator?: "line" | "dot" | "dashed"
-    nameKey?: string
-    labelKey?: string
-  }) {
+}: {
+  active?: boolean;
+  payload?: any[]; // Menggunakan any[] untuk menghindari error tipe
+  className?: string;
+  indicator?: "line" | "dot" | "dashed";
+  hideLabel?: boolean;
+  hideIndicator?: boolean;
+  label?: string;
+  labelFormatter?: (value: any, name: any, payload: any[]) => React.ReactNode;
+  labelClassName?: string;
+  formatter?: (value: any, name: any, item: any, index: number, payload: any) => React.ReactNode;
+  color?: string;
+  nameKey?: string;
+  labelKey?: string;
+}) {
   const { config } = useChart()
 
   const tooltipLabel = React.useMemo(() => {
@@ -183,10 +191,7 @@ function ChartTooltipContent({
           const key = `${nameKey || item.name || item.dataKey || "value"}`
           const itemConfig = getPayloadConfigFromPayload(config, item, key)
           
-          // --- PERUBAHAN DIMULAI DI SINI ---
-          // Periksa apakah item.payload ada sebelum mencoba mengakses propertinya
           const indicatorColor = color || (item.payload && typeof item.payload === 'object' ? item.payload.fill : undefined) || item.color
-          // --- PERUBAHAN BERAKHIR DI SINI ---
 
           return (
             <div
@@ -251,6 +256,7 @@ function ChartTooltipContent({
     </div>
   )
 }
+// --- PERUBAHAN UTAMA BERAKHIR DI SINI ---
 
 const ChartLegend = RechartsPrimitive.Legend
 
