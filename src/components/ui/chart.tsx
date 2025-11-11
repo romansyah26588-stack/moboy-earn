@@ -84,8 +84,8 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
         __html: Object.entries(THEMES)
           .map(
             ([theme, prefix]) => `
-${prefix} [data-chart=${id}] {
-${colorConfig
+ ${prefix} [data-chart=${id}] {
+ ${colorConfig
   .map(([key, itemConfig]) => {
     const color =
       itemConfig.theme?.[theme as keyof typeof itemConfig.theme] ||
@@ -182,7 +182,11 @@ function ChartTooltipContent({
         {payload.map((item, index) => {
           const key = `${nameKey || item.name || item.dataKey || "value"}`
           const itemConfig = getPayloadConfigFromPayload(config, item, key)
-          const indicatorColor = color || item.payload.fill || item.color
+          
+          // --- PERUBAHAN DIMULAI DI SINI ---
+          // Periksa apakah item.payload ada sebelum mencoba mengakses propertinya
+          const indicatorColor = color || (item.payload && typeof item.payload === 'object' ? item.payload.fill : undefined) || item.color
+          // --- PERUBAHAN BERAKHIR DI SINI ---
 
           return (
             <div
