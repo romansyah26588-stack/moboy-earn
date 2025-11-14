@@ -1,3 +1,6 @@
+// Tambahkan baris ini di paling atas file, setelah import
+export const dynamic = 'force-dynamic';
+
 import { NextRequest, NextResponse } from 'next/server'
 import { db } from '@/lib/db'
 
