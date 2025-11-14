@@ -1,4 +1,11 @@
+# wrangler.toml
+
 name = "moboy-earn"
-compatibility_date = "2023-10-30"
+compatibility_date = "2024-11-14"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = "out"
+
+# Ini adalah bagian terpenting
+pages_build_output_dir = ".vercel/output/static"
+
+# [build] command akan otomatis diatur oleh adapter
+# Jadi Anda tidak perlu menulisnya secara manual di sini
