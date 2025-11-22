@@ -1,8 +1,4 @@
-# wrangler.toml
-
 name = "moboy-earn"
 compatibility_date = "2024-11-14"
 compatibility_flags = ["nodejs_compat"]
-
-# Ubah baris ini ke folder output dari OpenNext
 pages_build_output_dir = ".open-next"
